@@ -1,8 +1,7 @@
 // problem3.js
 
 function sortCarModelsAlphabetically(inventory) {
-    const sortedModels = inventory.map(car => car.car_model).sort();
-    return sortedModels;
+    return inventory.map(car => car.car_model).sort();
 }
 
 module.exports = sortCarModelsAlphabetically;
